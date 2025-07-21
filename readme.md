@@ -1,5 +1,5 @@
 # ultralytics
-### Qualcomm Snapdragon X Plus - 8 core, 45 TOP NPU
+### Qualcomm Snapdragon X Plus - 8 core, 45 TOPS NPU
 
 ### Inference Camera
 ![](images/Screenshot%202025-07-21%20092053.png)
