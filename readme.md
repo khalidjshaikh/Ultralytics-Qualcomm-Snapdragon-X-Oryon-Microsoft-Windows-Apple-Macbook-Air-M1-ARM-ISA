@@ -1,4 +1,4 @@
-# ultralytics
+# Ultralytics
 ### Qualcomm Snapdragon X Plus - 8 core, 45 TOPS NPU
 
 ### Inference Camera
@@ -10,6 +10,13 @@
 ### Task Manager when Idle
 ![](images/Screenshot%202025-07-21%20092658.png)
 
+
+### Python package installation
+```
+pip3 install ultralytics opencv-python numpy
+```
+
+### Terminal - PowerShell 7.6.0-preview.4
 ```
 python .\ultra3.py
 Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
