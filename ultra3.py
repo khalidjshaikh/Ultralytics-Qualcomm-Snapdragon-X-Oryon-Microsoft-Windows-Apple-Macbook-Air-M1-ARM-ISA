@@ -19,7 +19,8 @@ while True:
     if not ret:
         break
 
-    results = model.predict(frame)  # or video stream
+    # results = model.predict(frame, device="cpu")  # or video stream
+    results = model.predict(frame, device="mps")  # or video stream
     for r in results:
         for det in r.boxes:  # Accessing individual detections
             x_center, y_center, width, height = array(det.xywhn.tolist()).flatten()  # Normalized coordinates
